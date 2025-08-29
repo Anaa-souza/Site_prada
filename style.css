@@ -1,0 +1,113 @@
+body{
+    margin:0px;
+    font-family: Arial, sans-serif;
+}
+nav{
+    background-color: #ffff;
+    border-bottom: 1px solid #ddd;
+}
+.prada{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+.logo img{
+    display: block;
+}
+.nav-icons{
+    display: flex;
+    gap: 25px; /*espaçamento entre os icones*/
+    font-size: 20px;
+}
+.nav-icons i{
+    cursor: pointer;
+    transition: opacity 0.3s ;
+}
+.nav-icons i:hover{
+    opacity:0.6px
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 0;
+    list-style: none;
+    gap:40px; 
+    border-top: 1px solid #ddd;
+}
+.footer-contact h3, .footer-social h3{
+    margin-bottom: 10px; /* margin-bottom da um espaço abaixo dos subtítulos*/
+     color: black;
+}
+.social-icons{
+    color:black;
+    margin-right: 15px;
+    font-size: 20px; /*aumenta o tamanho dos icones*/
+}
+.hero-video{
+    position:relative;
+    width: 80%;
+    height: 100vh;
+}
+.hero-video{
+    width: 100%;
+    height: 100%;
+}
+.box {
+  
+  gap: 10px; /* Espaçamento entre as imagens */
+}
+
+.box img {
+  width: 50%; /* Define a largura de cada imagem */
+}
+.container-imagens {
+  display: flex; /* Alinha os elementos um ao lado do outro */
+  justify-content: center; /* Centraliza as imagens horizontalmente */
+  margin: 0 auto; /* Centraliza a div inteira na página (requer que a div tenha largura definida) */
+  width: 50%; /* Exemplo de largura para a div */
+}
+
+.container-imagens img {
+  /* Estilos opcionais para as imagens */
+  width: 650px; /* Define uma largura para cada imagem */
+  height: 650px;
+  margin: 0 10px; /* Espaçamento entre as imagens */
+  
+}
+figcaption {
+  
+  color:black;
+  font: italic smaller sans-serif;
+  padding: 45px;
+  text-align: center;
+}
+.footer-logo h2{
+    margin: 0;
+    
+}
+.footer-contact h3, .footer-social h3{
+    margin-bottom: 10px; /* margin-bottom da um espaço abaixo dos subtítulos*/
+     color: black;
+}
+.social-icons{
+    color:black;
+    margin-right: 15px;
+    font-size: 20px; /*aumenta o tamanho dos icones*/
+}
+
+.social-icons:hover{
+    color:black;
+}
+.footer-container{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /*quebra linha*/
+    gap: 20px;
+    max-width: 1200px;
+    margin:auto;
+}
+    
+
+
